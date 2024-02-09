@@ -1,9 +1,10 @@
 [MAIN]
 disable=
-      C0114, #missing-module-docstring
-      C0115, #missing-class-docstring
-      C0116, #missing-fuction-docstring
+      C0114, # missing-module-docstring
+      C0115, # missing-class-docstring
+      C0116, # missing-fuction-docstring
       W0703, # Catching too general exception Exception
+      R0903, # too-few-public-methods
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
